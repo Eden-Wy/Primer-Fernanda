@@ -1,0 +1,56 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: lavender;
+    color: #333;
+}
+
+nav, h1, header li, a {
+    text-align: center;
+    padding: 2rem;
+    display: inline-block;
+    height: 7rem
+    /* inline puts them all together in a line and they are harder to style individually */
+    /* inline-block lets us edit the height */
+}
+
+section {
+    padding: 2rem;
+    margin-bottom: 4rem;
+}
+
+section p {
+    margin-bottom: 1rem;
+    max-width: 80ch;
+}
+
+section ul {
+    list-style: none;
+    
+}
+
+section ul li {
+    letter-spacing: 0.5px;
+    font-size: 0.8px;
+}
+
+a:hover {
+    color:blueviolet;
+}
+
+figure {
+    margin: 0 auto;
+    width: 100%;
+}
+
+figcaption {
+    font-size: 0.8rem;
+    text-align: center;
+    color: gray;
+
+}
