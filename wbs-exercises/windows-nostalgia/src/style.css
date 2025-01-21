@@ -1,0 +1,61 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-image: url("https://images.pexels.com/photos/53594/blue-clouds-day-fluffy-53594.jpeg");
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    margin: 0;
+}
+
+h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 100%;
+    color: white;
+    padding: 0.5rem;
+    padding-left: 2rem;
+    margin: 0rem;
+}
+
+.border {
+    background-image: linear-gradient(to right, rgb(29, 29, 121), rgb(209, 221, 244));
+    padding: 0;
+    margin: 0;
+}
+
+.window {
+    padding: 0;
+    margin: 1rem;
+    background-color: rgb(199, 199, 199);
+    border-style:outset
+}
+
+img {
+    margin-left: 1rem;
+    height: 50px;
+    width: auto;
+}
+
+p {
+    font-size:80%;
+}
+
+p, img {
+    display: inline-block;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+
+button {
+    text-align: center;
+    cursor: pointer;
+    padding: 0.5rem;
+    border: none;
+    background-color: rgb(199, 199, 199);
+    border-style: outset;
+}
