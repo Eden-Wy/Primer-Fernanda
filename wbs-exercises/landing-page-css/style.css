@@ -5,9 +5,20 @@
 }
 
 header {
-    padding: 2rem 4rem;
+    padding: 0;
     color:#d686ce;
     background-color: #010101;
+}
+
+nav a {
+    color:#010101;
+
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+nav {
+    background-color:#d686ce;
 }
 
 header h1 {
@@ -57,16 +68,57 @@ img {
     border:3px dotted #010101;
 }
 
-.image-content{
+.image-content1 {
     padding-top: 1rem;
     padding: 20px;
 
 }
 
-.image-content img {
+.image-content1 img {
     margin: 0 auto;
     object-fit: cover;
     object-position:center;
 }
 
+.image-content2{
+    padding-top: 1rem;
+    padding: 20px;
+
+}
+
+.image-content2 img {
+    margin: 0 auto;
+    object-fit: cover;
+    object-position:center;
+}
+
+footer {
+    background-color:#010101;
+    color:#d686ce;
+}
+
+fieldset {
+    border: none
+}
+
+button {
+    margin: 0.5rem;
+
+}
+/*
+@media only screen and (max-width: 600px){
+}
+
+@media only screen and (min-width: 601px) and (max-width: 768px){
+}
+
+@media only screen and (min-width: 769px) and (max-width: 992px){
+}
+
+@media only screen and (min-width: 993px) and (max-width: 1200px){
+}
+
+@media only screen and (min-width: 1201px){
+}
+*/
 
